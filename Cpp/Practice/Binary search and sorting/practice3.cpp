@@ -37,7 +37,7 @@ vector<int> findKclosest(int arr[], int x, int k, int n)
     vector<int> result;
     for (int i = 0; i < k; i++)
     {
-        result.push_back(diff_with_values[i].second);
+        result.push_back(diff_with_values[i].first);
     }
     return result;
 }
