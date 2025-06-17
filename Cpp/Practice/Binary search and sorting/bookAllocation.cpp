@@ -8,10 +8,35 @@ int main()
 {
 
     int arr[] = {12, 34, 67, 90};
+    vector<int> abr = {1, 2, 3, 4, 5};
+    cout << abr.size() << endl;
     int k = 2;
     int N = sizeof(arr) / sizeof(arr[0]);
-    int result = allocateBooks(arr, k, N);
-    cout << "Result : " << result << endl;
+    int res;
+    // int result = allocateBooks(arr, k, N);
+    // cout << "Result : " << result << endl;
+
+    // New approach
+
+    // int start = 0;
+    // int end = 12 + 34 + 67 + 90;
+    // int mid;
+
+    // while (start <= end)
+    // {
+    //     mid = start + (end - start) / 2;
+    //     for (int i = 0; i < N; i++)
+    //     {
+    //         res += arr[i];
+    //         if (res > mid)
+    //         {
+    //             N -= 1;
+    //         }
+    //     }
+    //     if ()
+    // }
+
+    // cout << "Result" << res << endl;
 
     return 0;
 }
