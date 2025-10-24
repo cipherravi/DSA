@@ -1,4 +1,6 @@
 #include <iostream>
+#include <vector>
+#include <algorithm>
 using namespace std;
 
 bool isPossible(vector<int> cookRanks, int nP, int mid)
